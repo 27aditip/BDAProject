@@ -1,0 +1,48 @@
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+git clone https://github.com/vinodpatne/bda.git
+git clone https://github.com/vinodpatne/bda_students.git
+
+git clone https://github.com/dhruv2103/bda.git
+
+# last commit id
+git log --format="%H" -n 1
+
+
+#to force the master branch of the origin remote repository to the parent of dd61ab32:
+git push origin +e11fd76^:master
+
+
+git reset --hard origin/master
+
+# clean local changes
+
+git clean -df
+
+
+#Discarding all local commits on this branch
+git reset --hard @{u}
+
+#Create a new branch
+git checkout -b development
+
+curl -i -u "my_user_name:my_password" -X PUT -d '' 'https://api.github.com/repos/my_gh_userid/my_repo/collaborators/my_collaborator_id'
+export PASS=XXXXX
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/divya180'
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/vaibhavkachare'
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/dhruv2103'
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/atharva246'
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/rashmi0405'
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/rohitgulve'
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/DEVIIKAP'
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/akku-09'
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/poojab1997'
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/10rjmehta'
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/SejalPitale'
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/ajayostawal'
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/patilamruta1'
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/27aditip'
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/rushabh10shah'
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/mitgauri'
+curl -i -u "vinodpatne:$PASS" -X PUT -d '' 'https://api.github.com/repos/vinodpatne/bda/collaborators/madhushreepatil'
