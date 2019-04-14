@@ -1,0 +1,4 @@
+[INFO ] 2019-04-14 14:43:26.397 [restartedMain] TransactionApplication - Starting TransactionApplication on Shekhar with PID 8168 (C:\Users\Shekhar\project\FraudManagementSystem\target\classes started by Shekhar in C:\Users\Shekhar\project\FraudManagementSystem)
+[INFO ] 2019-04-14 14:43:26.419 [restartedMain] TransactionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-14 14:43:43.213 [restartedMain] TransactionApplication - Started TransactionApplication in 18.029 seconds (JVM running for 20.474)
+[INFO ] 2019-04-14 14:48:43.011 [http-nio-8080-exec-4] TransactionController - FraudTransaction [transactionId=17, userID=8888, fromAC=null, fromBankIFSC=SBI123, toAC=5555555, toBankIFSC=SBI987, currency=INR, transactionDate=Sun Apr 14 14:48:42 IST 2019, transactionAmount=1000.0, transactionType=NEFT, transactionLocation=PUNE, isFraud=N, fraudHandlerUserID=13234124, comments=T1]
