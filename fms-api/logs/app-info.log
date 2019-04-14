@@ -1,0 +1,5 @@
+[INFO ] 2019-04-14 16:15:43.607 [main] FmsApplication - Starting the application...
+[INFO ] 2019-04-14 16:15:43.967 [main] FmsApplication - Starting FmsApplication on C05L0116 with PID 7716 (D:\Hadoop\MIT\fms-api\target\classes started by Administrator in D:\Hadoop\MIT\fms-api)
+[INFO ] 2019-04-14 16:15:43.968 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-14 16:15:50.896 [main] FmsApplication - Started FmsApplication in 7.184 seconds (JVM running for 8.012)
+[INFO ] 2019-04-14 17:14:57.166 [http-nio-8080-exec-1] TransactionLoggerService - New Transaction => [, 10200668894, SBIN0001537, 69850085691, ICIC0006561, INR, Sat Mar 16 21:10:01 IST 2019, 50500.5, NEFT, INDIA, Y, ]
