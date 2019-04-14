@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+
+	<Properties>
+		<Property name="basePath">./logs</Property>
+	</Properties>
+
+	<Appenders>
+		<RollingFile name="fileLogger2"
+			fileName="${basePath}/app-info.log"
+			filePattern="${basePath}/app-info-%d{yyyy-MM-dd}.log">
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+				</pattern>
+			</PatternLayout>
+			<Policies>
+				<!-- Starts a new file when size reaches threshold -->
+				<SizeBasedTriggeringPolicy size="10 MB" />
+				<!-- causes a rollover once the date/time pattern no longer applies to 
+					the active file -->
+				<TimeBasedTriggeringPolicy />
+			</Policies>
+		</RollingFile>
+
+		<Console name="console1" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
+		</Console>
+	</Appenders>
+
+	<Loggers>
+		<Logger name="edu.mit" level="info" additivity="true">
+			<appender-ref ref="fileLogger2" level="debug" />
+		</Logger>
+		<Root level="debug" additivity="false">
+			<appender-ref ref="console1" />
+		</Root>
+	</Loggers>
+
+</Configuration>

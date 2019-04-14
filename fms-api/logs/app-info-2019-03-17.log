@@ -1,0 +1,28 @@
+[INFO ] 2019-03-23 16:41:47.254 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-23 16:41:47.581 [main] FmsApplication - Starting FmsApplication on C05L0114 with PID 7684 (started by Administrator in C:\Program Files\MIT\MIT-Mini-Project\fms-api)
+[INFO ] 2019-03-23 16:41:47.581 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-23 16:41:53.268 [main] FmsApplication - Started FmsApplication in 5.905 seconds (JVM running for 6.52)
+[INFO ] 2019-03-23 16:43:58.209 [http-nio-8080-exec-2] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:43:58.209 [http-nio-8080-exec-4] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:43:58.354 [http-nio-8080-exec-8] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:43:58.474 [http-nio-8080-exec-3] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:43:58.602 [http-nio-8080-exec-7] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:43:58.752 [http-nio-8080-exec-6] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:43:58.885 [http-nio-8080-exec-10] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:43:59.019 [http-nio-8080-exec-1] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:43:59.153 [http-nio-8080-exec-5] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:43:59.264 [http-nio-8080-exec-9] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:43:59.419 [http-nio-8080-exec-2] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:43:59.569 [http-nio-8080-exec-4] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:43:59.703 [http-nio-8080-exec-8] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:43:59.853 [http-nio-8080-exec-3] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:43:59.993 [http-nio-8080-exec-7] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:44:00.137 [http-nio-8080-exec-6] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:44:00.278 [http-nio-8080-exec-10] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:44:00.418 [http-nio-8080-exec-1] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:44:00.566 [http-nio-8080-exec-5] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:44:00.731 [http-nio-8080-exec-9] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:44:00.846 [http-nio-8080-exec-2] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:44:00.987 [http-nio-8080-exec-4] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:44:01.136 [http-nio-8080-exec-8] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-23 16:44:01.271 [http-nio-8080-exec-3] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
