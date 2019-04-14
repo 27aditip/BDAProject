@@ -1,0 +1,35 @@
+[INFO ] 2019-04-13 16:48:57.428 [main] App - Starting the application...
+[INFO ] 2019-04-13 16:48:57.768 [restartedMain] App - Starting the application...
+[INFO ] 2019-04-13 16:48:58.563 [restartedMain] App - Starting App on DESKTOP-NM4GU6D with PID 10660 (D:\Project\target\classes started by dpawa in D:\Project)
+[DEBUG] 2019-04-13 16:48:58.564 [restartedMain] App - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 2019-04-13 16:48:58.566 [restartedMain] App - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13 16:49:14.017 [restartedMain] App - Started App in 16.238 seconds (JVM running for 18.015)
+[INFO ] 2019-04-13 16:50:19.975 [http-nio-8080-exec-2] TransactionLogger - Data: Transaction [transactionId=4, userID=pooja, fromAC=10200668894, fromBankIFSC=SBI, toAC=69850085691, toBankIFSC=sdsa, currency=INR, transactionDate=1970-01-01 05:30:03.456, transactionAmount=5000, transactionType=df, transactionLocation=INDIA]
+[INFO ] 2019-04-13 16:51:13.807 [http-nio-8080-exec-3] TransactionLogger - Data: Transaction [transactionId=5, userID=pooja1, fromAC=10200668894, fromBankIFSC=SBI, toAC=69850085691, toBankIFSC=sdsa, currency=INR, transactionDate=1970-01-01 05:30:03.456, transactionAmount=5000, transactionType=df, transactionLocation=INDIA]
+[INFO ] 2019-04-13 16:51:58.639 [http-nio-8080-exec-4] TransactionLogger - Data: Transaction [transactionId=6, userID=pooja1, fromAC=10200668894, fromBankIFSC=SBI, toAC=69850085691, toBankIFSC=sdsa, currency=INR, transactionDate=1970-01-01 05:30:03.456, transactionAmount=5000, transactionType=df, transactionLocation=INDIA]
+[INFO ] 2019-04-13 16:55:35.192 [main] App - Starting the application...
+[INFO ] 2019-04-13 16:55:35.558 [restartedMain] App - Starting the application...
+[INFO ] 2019-04-13 16:55:36.246 [restartedMain] App - Starting App on DESKTOP-NM4GU6D with PID 7472 (D:\Project\target\classes started by dpawa in D:\Project)
+[DEBUG] 2019-04-13 16:55:36.247 [restartedMain] App - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 2019-04-13 16:55:36.248 [restartedMain] App - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13 16:55:51.754 [restartedMain] App - Started App in 16.186 seconds (JVM running for 18.017)
+[INFO ] 2019-04-13 16:56:45.225 [http-nio-8080-exec-9] TransactionLogger - Data: Transaction [transactionId=7, userID=pooja1, fromAC=10200668894, fromBankIFSC=SBI, toAC=69850085691, toBankIFSC=sdsa, currency=INR, transactionDate=1970-01-01 05:30:03.456, transactionAmount=5000, transactionType=df, transactionLocation=INDIA]
+[INFO ] 2019-04-13 17:01:22.954 [restartedMain] App - Starting the application...
+[INFO ] 2019-04-13 17:01:23.069 [restartedMain] App - Starting App on DESKTOP-NM4GU6D with PID 7472 (D:\Project\target\classes started by dpawa in D:\Project)
+[DEBUG] 2019-04-13 17:01:23.069 [restartedMain] App - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 2019-04-13 17:01:23.070 [restartedMain] App - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13 17:01:26.968 [restartedMain] App - Started App in 4.008 seconds (JVM running for 353.23)
+[INFO ] 2019-04-13 17:02:35.653 [http-nio-8080-exec-2] TransactionLogger - Data: Transaction [transactionId=8, userID=devikapawar, fromAC=10200668894, fromBankIFSC=SBI, toAC=69850085691, toBankIFSC=sdsa, currency=INR, transactionDate=1970-01-01 05:30:03.456, transactionAmount=5000, transactionType=df, transactionLocation=INDIA]
+[INFO ] 2019-04-13 17:07:30.812 [main] App - Starting the application...
+[INFO ] 2019-04-13 17:07:31.150 [restartedMain] App - Starting the application...
+[INFO ] 2019-04-13 17:07:31.848 [restartedMain] App - Starting App on DESKTOP-NM4GU6D with PID 6128 (D:\Project\target\classes started by dpawa in D:\Project)
+[DEBUG] 2019-04-13 17:07:31.849 [restartedMain] App - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 2019-04-13 17:07:31.851 [restartedMain] App - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13 17:07:48.277 [restartedMain] App - Started App in 17.117 seconds (JVM running for 19.091)
+[INFO ] 2019-04-13 17:09:22.407 [http-nio-8080-exec-1] TransactionLogger - Data: Transaction [transactionId=9, userID=devikapawar, fromAC=10200668894, fromBankIFSC=SBI, toAC=69850085691, toBankIFSC=sdsa, currency=INR, transactionDate=1970-01-01 05:30:03.456, transactionAmount=5000, transactionType=df, transactionLocation=INDIA]
+[INFO ] 2019-04-13 17:09:43.204 [http-nio-8080-exec-3] TransactionLogger - Data: Transaction [transactionId=10, userID=abcdef, fromAC=10200668894, fromBankIFSC=SBI, toAC=69850085691, toBankIFSC=sdsa, currency=INR, transactionDate=1970-01-01 05:30:03.456, transactionAmount=5000, transactionType=df, transactionLocation=INDIA]
+[INFO ] 2019-04-13 17:10:10.148 [restartedMain] App - Starting the application...
+[INFO ] 2019-04-13 17:10:10.402 [restartedMain] App - Starting App on DESKTOP-NM4GU6D with PID 6128 (D:\Project\target\classes started by dpawa in D:\Project)
+[DEBUG] 2019-04-13 17:10:10.403 [restartedMain] App - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 2019-04-13 17:10:10.403 [restartedMain] App - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-13 17:10:15.436 [restartedMain] App - Started App in 5.272 seconds (JVM running for 166.25)
