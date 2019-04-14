@@ -1,0 +1,1 @@
+POST : Transaction [transactionId=1, userid=lee, fromac=10223400668894, frombankifsc=SBI, toac=6985008569123, tobankifsc=sdsa, currency=INR, transactiondate=Sun Apr 14 14:31:13 IST 2019, transactionamount=600000.0, transactiontype=ATM, transactionlocation=USA, loggingdate=Sun Apr 14 14:31:13 IST 2019, isfraud=Y, fraudhandleruserid=8654, comments=heyy hiiiiii]
