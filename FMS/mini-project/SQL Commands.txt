@@ -1,0 +1,10 @@
+use bank;
+
+show tables;
+
+drop table transactions;
+drop table hibernate_sequence;
+show tables;
+
+select * from transactions;
+select * from hibernate_sequence;

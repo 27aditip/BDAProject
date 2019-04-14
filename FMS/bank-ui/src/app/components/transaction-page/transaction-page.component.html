@@ -1,0 +1,70 @@
+<p class="d-flex justify-content-center">
+  transaction-page works!
+</p>
+<form role="form" #transData = "ngForm"  (ngSubmit)="addNewTransaction(transData.value); transData.reset()">
+
+  <!-- User ID -->
+  <div class="form-group d-flex justify-content-center">
+      <input type="text" autocomplete="off" class="col-sm-3 form-control" name="userID" id="userID" placeholder="User ID" ngModel>
+    </div>
+
+  <!-- Select Channel Type -->
+  <div class="form-group d-flex justify-content-center">
+  <select id="selectChannel"name="channel" class="col-sm-3 form-control " (change)="validate()" placeholder="Select Transaction Types" [(ngModel)]="ch">
+    <option value="" selected disabled>|---Select Channel Type---|</option>
+    <option *ngFor="let channel of channels" value={{channel}} [ngValue]="channel" oncha>{{channel}}</option>
+  </select>
+  </div>
+
+  <!-- Select Transaction Type -->
+  <div class="form-group d-flex justify-content-center">
+    <select id="selectTransType"name="transactionType" class="col-sm-3 form-control " placeholder="Select Transaction Types" ngModel>
+      <option value="" selected disabled>|---Select Transaction Type---|</option>
+      <option value="Withdrawal" selected>Withdrawal</option>
+      <option value="Deposit" >Deposit</option>
+      <option value="Transfer" >Transfer</option>
+    </select>
+  </div>
+
+  <!-- <div class="d-flex justify-content-center" *ngIf="tt != ''">Selected {{this.tt}}...!</div> -->
+
+  <!-- From Account -->
+  <div class="form-group d-flex justify-content-center">
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="fromAccountNo" id="fromAccountNo" placeholder="From Account No." ngModel>
+  </div>
+
+  <!-- From IFSC Code -->
+  <div class="form-group d-flex justify-content-center">
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="fromIFSC" id="fromIFSC" placeholder="From Account IFSC Code" ngModel>
+  </div>
+
+  <!-- To Account Number -->
+  <div class="form-group d-flex justify-content-center">
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="toAccountNo" id="toAccountNo" placeholder="To Account No." ngModel>
+  </div>
+
+  <!-- To IFSC Code -->
+  <div class="form-group d-flex justify-content-center">
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="toIFSC" id="toIFSC" placeholder="To Account IFSC Code" ngModel>
+  </div>
+
+  <!-- Currency -->
+  <div class="form-group d-flex justify-content-center">
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="currency" id="currency" placeholder="Currency" ngModel>
+  </div>
+
+  <!-- amount -->
+  <div class="form-group d-flex justify-content-center">
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="amount" id="amount" placeholder="Amount" ngModel>
+  </div>
+
+  <!-- Location -->
+  <div class="form-group d-flex justify-content-center">
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="transactionLocation" id="transactionLocation" placeholder="transaction Location" ngModel>
+  </div>
+
+  <div class="form-group d-flex justify-content-center">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+  
+</form>

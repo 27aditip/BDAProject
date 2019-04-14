@@ -1,0 +1,9 @@
+transaction channal
+FromAccount No
+FromIFCS
+ToAccount No
+ToIFSC
+Amount
+Location
+Card No.
+Trans Type

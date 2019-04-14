@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+
+	<Properties>
+		<Property name="basePath">./logs</Property>
+	</Properties>
+
+	<Appenders>
+		<RollingFile name="fileLogger"
+			fileName="${basePath}/app-info.log"
+			filePattern="${basePath}/app-info-%d{yyyy-MM-dd}.log">
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+				</pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"
+					modulate="true" />
+			</Policies>
+		</RollingFile>
+
+		<Syslog name="Syslog" format="RFC5424" host="192.168.233.129"
+			port="7070" protocol="UDP" facility="local3"
+			connectTimeoutMillis="10000" reconnectionDelayMillis="5000">
+			<PatternLayout>
+				<pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+				</pattern>
+			</PatternLayout>
+		</Syslog>
+
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
+		</Console>
+	</Appenders>
+
+	<Loggers>
+		<Logger name="edu.mit" level="debug">
+			<appenderRef ref="fileLogger" />
+			<appenderRef ref="Syslog" />
+		</Logger>
+	</Loggers>
+
+</Configuration>

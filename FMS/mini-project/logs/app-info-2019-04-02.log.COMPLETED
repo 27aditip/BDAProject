@@ -1,0 +1,13 @@
+[INFO ] 2019-04-02 22:58:04.346 [main] MiniProjectApplicationTests - Starting MiniProjectApplicationTests on LAPTOP-H1FFV06D with PID 14740 (started by dhkal in D:\eclipse-workspace\mini-project)
+[DEBUG] 2019-04-02 22:58:04.346 [main] MiniProjectApplicationTests - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 2019-04-02 22:58:04.347 [main] MiniProjectApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-02 23:02:10.398 [main] MiniProjectApplicationTests - Starting MiniProjectApplicationTests on LAPTOP-H1FFV06D with PID 8032 (started by dhkal in D:\eclipse-workspace\mini-project)
+[DEBUG] 2019-04-02 23:02:10.399 [main] MiniProjectApplicationTests - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 2019-04-02 23:02:10.400 [main] MiniProjectApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-02 23:02:15.093 [main] MiniProjectApplicationTests - Started MiniProjectApplicationTests in 4.959 seconds (JVM running for 6.121)
+[INFO ] 2019-04-02 23:02:26.386 [main] MiniProjectApplication - Starting the application...
+[INFO ] 2019-04-02 23:02:26.510 [restartedMain] MiniProjectApplication - Starting the application...
+[INFO ] 2019-04-02 23:02:26.704 [restartedMain] MiniProjectApplication - Starting MiniProjectApplication on LAPTOP-H1FFV06D with PID 7112 (D:\eclipse-workspace\mini-project\target\classes started by dhkal in D:\eclipse-workspace\mini-project)
+[DEBUG] 2019-04-02 23:02:26.704 [restartedMain] MiniProjectApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 2019-04-02 23:02:26.705 [restartedMain] MiniProjectApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-02 23:02:30.527 [restartedMain] MiniProjectApplication - Started MiniProjectApplication in 4.014 seconds (JVM running for 4.631)
