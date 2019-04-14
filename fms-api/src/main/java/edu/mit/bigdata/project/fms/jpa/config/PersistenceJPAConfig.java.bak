@@ -1,0 +1,55 @@
+package edu.mit.bigdata.project.fms.jpa.config;
+
+import javax.persistence.EntityManagerFactory;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.orm.jpa.JpaTransactionManager;
+import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
+import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+@Configuration
+@EnableTransactionManagement
+public class PersistenceJPAConfig {
+
+	// @Bean
+	// public DataSource dataSource() {
+	// EmbeddedDatabaseBuilder builder = new EmbeddedDatabaseBuilder();
+	// return builder.setType(EmbeddedDatabaseType.HSQL).build();
+	// }
+
+	@Bean
+	public DriverManagerDataSource dataSource() {
+		DriverManagerDataSource dataSource = new DriverManagerDataSource();
+		dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
+		dataSource.setUrl("jdbc:mysql://localhost:3306/FMS_DB");
+		dataSource.setUsername("fmsuser");
+		dataSource.setPassword("mit@2019");
+		return dataSource;
+	}
+
+	@Bean
+	public EntityManagerFactory entityManagerFactory() {
+		HibernateJpaVendorAdapter vendorAdapter = new HibernateJpaVendorAdapter();
+		vendorAdapter.setGenerateDdl(true);
+		vendorAdapter.setDatabasePlatform("org.hibernate.dialect.MySQL5Dialect");
+
+		LocalContainerEntityManagerFactoryBean factory = new LocalContainerEntityManagerFactoryBean();
+		factory.setJpaVendorAdapter(vendorAdapter);
+		factory.setPackagesToScan("edu.mit.bigdata.project.fms");
+		factory.setDataSource(dataSource());
+		factory.afterPropertiesSet();
+
+		return factory.getObject();
+	}
+
+	@Bean
+	public PlatformTransactionManager transactionManager() {
+		JpaTransactionManager txManager = new JpaTransactionManager();
+		txManager.setEntityManagerFactory(entityManagerFactory());
+		return txManager;
+	}
+}

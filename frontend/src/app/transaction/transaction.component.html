@@ -1,0 +1,46 @@
+
+<html>
+<body>
+
+  <div style="text-align: center">
+<h1 style="color:royalblue;" > MIT BANK Transactions Channel </h1>
+
+
+        <form> 
+            
+          Enter the transactionId: <input type="text" [(ngModel)]= "Transaction.transactionId" [ngModelOptions]="{standalone: true}" name="Id" placeholder="Id" class="col-3" required/><br/> <br>  
+          Enter the userID : <input type="text" [(ngModel)]= "Transaction.userID" [ngModelOptions]="{standalone: true}" name="Userid" placeholder="User Id" class="col-3"/><br/> <br>
+            Select  the transactionType: <select [(ngModel)]="Transaction.transactionType" [ngModelOptions]="{standalone: true}" class="col-3" >  
+              
+                <option>ATM</option>
+                <option>NEFT</option>
+                <option>UPI</option>
+                <option>BRANCH</option>
+                <option>ONLINE</option>
+
+            </select>
+            <br> <br>
+
+            From Account : <input type="text" [(ngModel)]= "Transaction.fromAC" [ngModelOptions]="{standalone: true}" name="fromAccountNo" placeholder="From Account " class="col-3"/><br/> <br>
+            IFSC Code : <input type="text" [(ngModel)]= "Transaction.fromBankIFSC" [ngModelOptions]="{standalone: true}" name="toIFSC" placeholder="IFSC Code" class="col-3"/><br/> <br>
+            To Account : <input type="text" [(ngModel)]= "Transaction.toAC" [ngModelOptions]="{standalone: true}" name="toAccountNo" placeholder="To Account" class="col-3"/><br/> <br>
+            IFSC Code : <input type="text" [(ngModel)]= "Transaction.toBankIFSC" [ngModelOptions]="{standalone: true}" name="toIFSC" placeholder="IFSC Code" class="col-3"/><br/> <br>
+            Enter the Currency : <input type="text" [(ngModel)]= "Transaction.currency" [ngModelOptions]="{standalone: true}" name="currency" placeholder="Currency" class="col-3"/><br/> <br>
+            Enter the Amount : <input type="text" [(ngModel)]= "Transaction.transactionamount" [ngModelOptions]="{standalone: true}" name="amount" placeholder="Amount In Rs" class="col-3"/><br/> <br>
+            Transaction Location : <input type="text" [(ngModel)]= "Transaction.transactionLocation" [ngModelOptions]="{standalone: true}" name="transactionLocation" placeholder="Location" class="col-3"/><br/> <br>
+            Is Transaction a Fraud : <input type="text" [(ngModel)]= "Transaction.isFraud" [ngModelOptions]="{standalone: true}" name="isFraud" placeholder="Is Fraud" class="col-3"/><br/> <br>
+            Enter the Fraud_Handler_UserID : <input type="text" [(ngModel)]= "Transaction.fraudHandlerUserID" [ngModelOptions]="{standalone: true}" name="fraudHandlerUserID" class="col-3"/><br/> <br>
+            Enter the Comment : <input type="text" [(ngModel)]= "Transaction.comments" [ngModelOptions]="{standalone: true}" name="comments" class="col-3"/><br/> <br>
+
+          <button (click)="addTransaction()"  type="button"  class="btn btn-primary btn-lg" > Submit</button>
+          
+
+        </form>
+
+
+        
+    
+
+</div>
+</body>
+</html>

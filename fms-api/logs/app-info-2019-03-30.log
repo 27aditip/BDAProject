@@ -1,0 +1,69 @@
+[INFO ] 2019-03-23 17:22:13.307 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-23 17:22:13.631 [main] FmsApplication - Starting FmsApplication on C05L0114 with PID 7028 (started by Administrator in C:\Program Files\MIT\MIT-Mini-Project\fms-api)
+[INFO ] 2019-03-23 17:22:13.632 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-23 17:22:25.328 [main] FmsApplication - Started FmsApplication in 11.922 seconds (JVM running for 12.508)
+[INFO ] 2019-03-23 17:22:58.643 [http-nio-8080-exec-2] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-03-30 13:04:17.235 [main] FmsApplicationTests - Starting FmsApplicationTests on DESKTOP-AESJH8L with PID 8732 (started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 13:04:17.236 [main] FmsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 13:04:29.597 [main] FmsApplicationTests - Started FmsApplicationTests in 13.114 seconds (JVM running for 17.996)
+[INFO ] 2019-03-30 13:11:38.592 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-30 13:11:38.937 [main] FmsApplication - Starting FmsApplication on DESKTOP-AESJH8L with PID 9104 (F:\projectss\fms-api\target\classes started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 13:11:38.937 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 13:11:49.570 [main] FmsApplication - Started FmsApplication in 10.884 seconds (JVM running for 11.588)
+[INFO ] 2019-03-30 13:15:17.331 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-30 13:15:17.681 [main] FmsApplication - Starting FmsApplication on DESKTOP-AESJH8L with PID 7988 (F:\projectss\fms-api\target\classes started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 13:15:17.681 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 13:21:00.370 [main] FmsApplicationTests - Starting FmsApplicationTests on DESKTOP-AESJH8L with PID 8832 (started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 13:21:00.370 [main] FmsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 13:21:08.669 [main] FmsApplicationTests - Started FmsApplicationTests in 8.488 seconds (JVM running for 10.618)
+[INFO ] 2019-03-30 13:22:17.182 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-30 13:22:17.515 [main] FmsApplication - Starting FmsApplication on DESKTOP-AESJH8L with PID 9024 (F:\projectss\fms-api\target\classes started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 13:22:17.516 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 13:22:26.180 [main] FmsApplication - Started FmsApplication in 8.908 seconds (JVM running for 9.626)
+[INFO ] 2019-03-30 13:26:01.764 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-30 13:26:02.096 [main] FmsApplication - Starting FmsApplication on DESKTOP-AESJH8L with PID 7476 (F:\projectss\fms-api\target\classes started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 13:26:02.097 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 13:28:27.672 [main] FmsApplicationTests - Starting FmsApplicationTests on DESKTOP-AESJH8L with PID 12416 (started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 13:28:27.673 [main] FmsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 13:28:35.267 [main] FmsApplicationTests - Started FmsApplicationTests in 7.779 seconds (JVM running for 8.758)
+[INFO ] 2019-03-30 13:28:49.856 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-30 13:28:50.194 [main] FmsApplication - Starting FmsApplication on DESKTOP-AESJH8L with PID 13276 (F:\projectss\fms-api\target\classes started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 13:28:50.195 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 13:30:08.696 [main] FmsApplicationTests - Starting FmsApplicationTests on DESKTOP-AESJH8L with PID 8144 (started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 13:30:08.696 [main] FmsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 13:30:16.905 [main] FmsApplicationTests - Started FmsApplicationTests in 8.395 seconds (JVM running for 9.449)
+[INFO ] 2019-03-30 13:30:29.751 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-30 13:30:30.105 [main] FmsApplication - Starting FmsApplication on DESKTOP-AESJH8L with PID 9220 (F:\projectss\fms-api\target\classes started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 13:30:30.105 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 13:30:39.689 [main] FmsApplication - Started FmsApplication in 9.847 seconds (JVM running for 10.599)
+[INFO ] 2019-03-30 13:31:39.542 [main] FmsApplicationTests - Starting FmsApplicationTests on DESKTOP-AESJH8L with PID 14344 (started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 13:31:39.542 [main] FmsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 13:31:48.090 [main] FmsApplicationTests - Started FmsApplicationTests in 8.743 seconds (JVM running for 9.819)
+[INFO ] 2019-03-30 13:32:46.740 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-30 13:32:47.221 [main] FmsApplication - Starting FmsApplication on DESKTOP-AESJH8L with PID 14908 (F:\projectss\fms-api\target\classes started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 13:32:47.222 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 13:54:52.352 [main] FmsApplicationTests - Starting FmsApplicationTests on DESKTOP-AESJH8L with PID 3596 (started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 13:54:52.353 [main] FmsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 13:55:01.100 [main] FmsApplicationTests - Started FmsApplicationTests in 8.938 seconds (JVM running for 9.982)
+[INFO ] 2019-03-30 13:57:48.392 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-30 13:57:48.786 [main] FmsApplication - Starting FmsApplication on DESKTOP-AESJH8L with PID 6800 (F:\projectss\fms-api\target\classes started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 13:57:48.786 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 13:57:58.469 [main] FmsApplication - Started FmsApplication in 9.96 seconds (JVM running for 10.718)
+[INFO ] 2019-03-30 16:26:35.358 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-30 16:26:35.758 [main] FmsApplication - Starting FmsApplication on DESKTOP-AESJH8L with PID 2400 (F:\projectss\fms-api\target\classes started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 16:26:35.758 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 16:29:03.859 [main] FmsApplicationTests - Starting FmsApplicationTests on DESKTOP-AESJH8L with PID 13596 (started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 16:29:03.859 [main] FmsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 16:29:11.383 [main] FmsApplicationTests - Started FmsApplicationTests in 7.707 seconds (JVM running for 8.696)
+[INFO ] 2019-03-30 17:22:41.328 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-30 17:22:41.675 [main] FmsApplication - Starting FmsApplication on DESKTOP-AESJH8L with PID 11176 (F:\projectss\fms-api\target\classes started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 17:22:41.676 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 17:22:50.778 [main] FmsApplication - Started FmsApplication in 9.356 seconds (JVM running for 10.067)
+[INFO ] 2019-03-30 17:43:03.209 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-30 17:43:03.544 [main] FmsApplication - Starting FmsApplication on DESKTOP-AESJH8L with PID 5800 (F:\projectss\fms-api\target\classes started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 17:43:03.545 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 17:43:11.909 [main] FmsApplication - Started FmsApplication in 8.604 seconds (JVM running for 9.306)
+[INFO ] 2019-03-30 17:44:57.947 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-30 17:44:58.322 [main] FmsApplication - Starting FmsApplication on DESKTOP-AESJH8L with PID 4456 (F:\projectss\fms-api\target\classes started by Admin in F:\projectss\fms-api)
+[INFO ] 2019-03-30 17:44:58.323 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-30 17:45:05.153 [main] FmsApplication - Started FmsApplication in 7.11 seconds (JVM running for 7.849)
