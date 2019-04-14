@@ -1,5 +1,0 @@
-[INFO ] 2019-03-23 17:22:13.307 [main] FmsApplication - Starting the application...
-[INFO ] 2019-03-23 17:22:13.631 [main] FmsApplication - Starting FmsApplication on C05L0114 with PID 7028 (started by Administrator in C:\Program Files\MIT\MIT-Mini-Project\fms-api)
-[INFO ] 2019-03-23 17:22:13.632 [main] FmsApplication - No active profile set, falling back to default profiles: default
-[INFO ] 2019-03-23 17:22:25.328 [main] FmsApplication - Started FmsApplication in 11.922 seconds (JVM running for 12.508)
-[INFO ] 2019-03-23 17:22:58.643 [http-nio-8080-exec-2] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
