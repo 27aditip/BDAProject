@@ -1,0 +1,3 @@
+[INFO ] 2019-04-13 13:13:36.288 [http-nio-8080-exec-3] CustomerTransactionResource - Data@@@@@: [5, 987654, SBI12345, Sat Apr 13 13:13:36 IST 2019, 10000.0, 1, Debit, ]
+[INFO ] 2019-04-13 13:20:21.174 [http-nio-8080-exec-6] CustomerTransactionResource - Data@@@@@: [6, 987654, SBI12345, Sat Apr 13 13:20:21 IST 2019, 10000.0, 1, Debit, Pune, ]
+[INFO ] 2019-04-13 13:24:04.014 [http-nio-8080-exec-9] CustomerTransactionResource - Data@@@@@: [7, 123456, 987654, SBI12345, Sat Apr 13 13:24:04 IST 2019, 10000.0, 1, Debit, Pune, ]
