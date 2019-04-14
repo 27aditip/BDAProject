@@ -1,0 +1,109 @@
+<!-- Grey with black text -->
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Info</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      
+    </ul>
+  </nav>
+  
+ 
+  <div style="text-align:center">
+  <h1>
+    Welcome to  {{ title }}!
+
+  </h1>
+  </div>
+  <div style="text-align:right">
+      <img class=logo src="assets/images/Bank.jpg" alt="Bank Logo" Width="200" height="200">
+      
+</div>
+
+
+
+<router-outlet></router-outlet>
+<form role="form" #transData = "ngForm" (ngSubmit)="addTrans(transData.value); transData.reset()">
+
+<div class="form-group row justify-content-center align-items-center">
+    <label for="userID"><B>userID:</B></label>
+  <input type="text" class="form-control col-sm-3" name="userID" id="userID" placeholder="userID" ngModel>
+</div>
+
+
+<div class="form-group row justify-content-center align-items-center">
+  <label for="fromAC"><B>fromAC:</B></label>
+  <input type="text" class="form-control col-sm-3" name="fromAC" id="fromAC" placeholder="fromAC" ngModel>
+</div>
+
+
+<div class="form-group row justify-content-center align-items-center">
+  <label for="fromBankIFSC"><B>fromBankIFSC:</B></label>
+  <input type="text" class="form-control col-sm-3" name="fromBankIFSC" id="fromBankIFSC" placeholder="fromBankIFS" ngModel>
+</div>
+
+
+
+<div class="form-group row justify-content-center align-items-center">
+  <label for="toAC"><B>toAC: </B></label>
+  <input type="text" class="form-control col-sm-3" name="toAC" id="toAC" placeholder="toAC" ngModel>
+</div>
+
+<div class="form-group row justify-content-center align-items-center">
+  <label for="toBankIFSC"><B> toBankIFSC: </B></label>
+  <input type="text" class="form-control col-sm-3" name="toBankIFSC" id="toBankIFSC" placeholder="toBankIFSC" ngModel>
+</div>
+
+
+
+<div class="form-group row justify-content-center align-items-center">
+  <label for="currency"><B>currency : </B></label>
+  <input type="text" class="form-control col-sm-3" name="currency" id="currency" placeholder="currency" ngModel>
+</div>
+
+
+<div class="form-group row justify-content-center align-items-center">
+    <label for="transactionAmount"><B>transactionAmount : </B></label>
+    <input type="text" class="form-control col-sm-3" name="transactionAmount" id="transactionAmount" placeholder="transactionAmount" ngModel>
+  </div>
+
+  <div class="form-group row justify-content-center align-items-center">
+      <label for="transactionType"><B>transactionType : </B></label>
+      <input type="text" class="form-control col-sm-3" name="transactionType" id="transactionType" placeholder="transactionType" ngModel>
+    </div> 
+
+      <div class="form-group row justify-content-center align-items-center">
+          <label for="transactionLocation"><B>transactionLocation : </B></label>
+          <input type="text" class="form-control col-sm-3" name="transactionLocation" id="transactionLocation" placeholder="transactionLocation" ngModel>
+        </div> 
+
+        <div class="form-group row justify-content-center align-items-center">
+            <label for="isFraud"><B>isFraud : </B></label>
+            <input type="text" class="form-control col-sm-3" name="isFraud" id="isFraud" placeholder="isFraud" ngModel>
+          </div> 
+
+          <div class="form-group row justify-content-center align-items-center" ngModel>
+              <label for="fraudHandlerUserID"><B>fraudHandlerUserID: </B></label>
+              <input type="text" class="form-control col-sm-3" name="fraudHandlerUserID" id="fraudHandlerUserID" placeholder="fraudHandlerUserID">
+            </div> 
+
+
+
+<div class="form-group row justify-content-center align-items-center">
+  <label for="comments"><B>comments: </B></label>
+  <input type="text" class="form-control col-sm-3"name="comments" id="comments" placeholder="comments" ngModel>
+</div>
+      
+<div class="form-group row justify-content-center align-items-center">     
+   <button type="submit" class="btn btn-primary">Submit</button>
+</div>
+  
+</form>
+
+<!-- ngModel bind the variable of your html page to compunant.ts page(backend) -->
