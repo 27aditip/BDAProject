@@ -1,0 +1,59 @@
+package Driver;
+
+import java.util.List;
+
+import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import Driver.transactionDAO;
+
+@RestController
+@RequestMapping("/Bank")
+
+public class transactionController {
+	
+	@Autowired
+	transactionDAO transactionDAO;
+	
+	//to save the transaction
+	
+	@PostMapping("/transactions")
+	
+	//when url with /Bank/transactions and method is post
+	
+	public transaction createtransaction(@Valid @RequestBody transaction tr) {
+		return transactionDAO.save(tr);
+	}
+	
+	//get all transactions
+	
+	@GetMapping("/gettransactions")
+	
+	public List<transaction> getAlltransactions(){
+		return transactionDAO.findAll();
+	}
+	
+	//get transaction by transaction id
+	
+	@GetMapping("/notes/{transactionId}")
+	public ResponseEntity<transaction> gettransactionById(@PathVariable(value="transactionId") String transactionId){
+		
+		transaction tr=transactionDAO.findOne(transactionId);
+		
+		if(tr==null) {
+			return ResponseEntity.notFound().build();
+		}
+		return ResponseEntity.ok().body(tr);
+	}
+	
+	
+	
+	
+}
