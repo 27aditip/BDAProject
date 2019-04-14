@@ -1,0 +1,30 @@
+[INFO ] 2019-04-14 13:20:48.093 [restartedMain] FraudDetectionApplication - Starting the application...
+[INFO ] 2019-04-14 13:20:48.372 [restartedMain] FraudDetectionApplication - Starting FraudDetectionApplication on LAPTOP-MF5R94IV with PID 12716 (H:\eclipse-workspace\api\api\target\classes started by Manali Shah in H:\eclipse-workspace\api\api)
+[INFO ] 2019-04-14 13:20:48.372 [restartedMain] FraudDetectionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-14 13:20:49.759 [restartedMain] FraudDetectionApplication - Started FraudDetectionApplication in 1.533 seconds (JVM running for 89899.134)
+[INFO ] 2019-04-14 13:29:39.993 [restartedMain] FraudDetectionApplication - Starting the application...
+[INFO ] 2019-04-14 13:29:40.108 [restartedMain] FraudDetectionApplication - Starting FraudDetectionApplication on LAPTOP-MF5R94IV with PID 12716 (H:\eclipse-workspace\api\api\target\classes started by Manali Shah in H:\eclipse-workspace\api\api)
+[INFO ] 2019-04-14 13:29:40.108 [restartedMain] FraudDetectionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-14 13:29:41.334 [restartedMain] FraudDetectionApplication - Started FraudDetectionApplication in 1.33 seconds (JVM running for 90430.709)
+[INFO ] 2019-04-14 13:36:52.444 [http-nio-8080-exec-1] FraudTransController - Post Data@@@@@: FraudTransactions [transactionID=14, userID=4586, fromAC=10200668894, fromBankIFSC=SBIN0001537, toAC=69850085691, toBankIFSC=ICIC0006561, currency=INR, transactionDate=Sun Apr 14 13:36:52 IST 2019, transactionAmount=1400.5, transactionType=NEFT, transactionLocation=INDIA, loggingDate=Sun Apr 14 13:36:52 IST 2019, isFraud=true, fraudHandlerUserID=, comments=]
+[INFO ] 2019-04-14 13:39:22.147 [main] FraudDetectionApplication - Starting the application...
+[INFO ] 2019-04-14 13:39:22.403 [restartedMain] FraudDetectionApplication - Starting the application...
+[INFO ] 2019-04-14 13:39:22.826 [restartedMain] FraudDetectionApplication - Starting FraudDetectionApplication on LAPTOP-MF5R94IV with PID 17456 (H:\eclipse-workspace\api\api\target\classes started by Manali Shah in H:\eclipse-workspace\api\api)
+[INFO ] 2019-04-14 13:39:22.827 [restartedMain] FraudDetectionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-14 13:39:32.869 [restartedMain] FraudDetectionApplication - Started FraudDetectionApplication in 10.462 seconds (JVM running for 12.447)
+[INFO ] 2019-04-14 13:40:17.373 [http-nio-8080-exec-1] FraudTransController - Post Data@@@@@: FraudTransactions [transactionID=15, userID=4587, fromAC=10200668894, fromBankIFSC=SBIN0001537, toAC=69850085691, toBankIFSC=ICIC0006561, currency=INR, transactionDate=Sun Apr 14 13:40:17 IST 2019, transactionAmount=1400.5, transactionType=NEFT, transactionLocation=INDIA, loggingDate=Sun Apr 14 13:40:17 IST 2019, isFraud=true, fraudHandlerUserID=, comments=]
+[INFO ] 2019-04-14 14:18:29.524 [restartedMain] FraudDetectionApplication - Starting the application...
+[INFO ] 2019-04-14 14:18:29.578 [restartedMain] FraudDetectionApplication - Starting FraudDetectionApplication on LAPTOP-MF5R94IV with PID 17456 (H:\eclipse-workspace\api\api\target\classes started by Manali Shah in H:\eclipse-workspace\api\api)
+[INFO ] 2019-04-14 14:18:29.579 [restartedMain] FraudDetectionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-14 14:18:30.784 [restartedMain] FraudDetectionApplication - Started FraudDetectionApplication in 1.252 seconds (JVM running for 2350.362)
+[INFO ] 2019-04-14 14:19:01.757 [main] FraudDetectionApplication - Starting the application...
+[INFO ] 2019-04-14 14:19:01.968 [restartedMain] FraudDetectionApplication - Starting the application...
+[INFO ] 2019-04-14 14:19:02.343 [restartedMain] FraudDetectionApplication - Starting FraudDetectionApplication on LAPTOP-MF5R94IV with PID 2464 (H:\eclipse-workspace\api\api\target\classes started by Manali Shah in H:\eclipse-workspace\api\api)
+[INFO ] 2019-04-14 14:19:02.344 [restartedMain] FraudDetectionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-14 14:19:08.247 [restartedMain] FraudDetectionApplication - Started FraudDetectionApplication in 6.271 seconds (JVM running for 7.215)
+[INFO ] 2019-04-14 14:21:23.278 [http-nio-8080-exec-6] FraudTransController - Post Data@@@@@: FraudTransactions [transactionID=18, userID=4588, fromAC=10200668894, fromBankIFSC=SBIN0001537, toAC=69850085691, toBankIFSC=ICIC0006561, currency=INR, transactionDate=Sun Apr 14 14:21:23 IST 2019, transactionAmount=1400.5, transactionType=NEFT, transactionLocation=INDIA, loggingDate=Sun Apr 14 14:21:23 IST 2019, isFraud=true, fraudHandlerUserID=, comments=]
+[INFO ] 2019-04-14 14:52:55.031 [restartedMain] FraudDetectionApplication - Starting the application...
+[INFO ] 2019-04-14 14:52:55.129 [restartedMain] FraudDetectionApplication - Starting FraudDetectionApplication on LAPTOP-MF5R94IV with PID 2464 (H:\eclipse-workspace\api\api\target\classes started by Manali Shah in H:\eclipse-workspace\api\api)
+[INFO ] 2019-04-14 14:52:55.129 [restartedMain] FraudDetectionApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-14 14:52:57.047 [restartedMain] FraudDetectionApplication - Started FraudDetectionApplication in 2.001 seconds (JVM running for 2036.015)
+[INFO ] 2019-04-14 14:55:04.964 [http-nio-8080-exec-2] FraudTransController - Post Data@@@@@: FraudTransactions [transactionID=19, userID=4589, fromAC=10200668894, fromBankIFSC=SBIN0001537, toAC=69850085691, toBankIFSC=ICIC0006561, currency=INR, transactionDate=Sun Apr 14 14:55:04 IST 2019, transactionAmount=1400.5, transactionType=NEFT, transactionLocation=INDIA, loggingDate=Sun Apr 14 14:55:04 IST 2019, isFraud=true, fraudHandlerUserID=, comments=]
