@@ -1,0 +1,4 @@
+[INFO ] 2019-04-14 13:53:27.309 [main] FmsApplication - Starting the application...
+[INFO ] 2019-04-14 13:53:31.783 [main] FmsApplication - Starting FmsApplication on DESKTOP-UPMI8M6 with PID 1664 (F:\API\fms-api\target\classes started by Ostwal in F:\API\fms-api)
+[INFO ] 2019-04-14 13:53:31.784 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-04-14 13:53:42.736 [main] FmsApplication - Started FmsApplication in 15.178 seconds (JVM running for 16.643)

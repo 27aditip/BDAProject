@@ -1,0 +1,17 @@
+[INFO ] 2019-03-27 18:39:09.165 [main] FmsApplicationTests - Starting FmsApplicationTests on Rohit with PID 2724 (started by Lenovo in I:\fms-api)
+[INFO ] 2019-03-27 18:39:09.196 [main] FmsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-27 18:40:15.522 [main] FmsApplicationTests - Started FmsApplicationTests in 67.996 seconds (JVM running for 76.822)
+[INFO ] 2019-03-27 18:41:23.637 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-27 18:41:24.320 [main] FmsApplication - Starting FmsApplication on Rohit with PID 15188 (I:\fms-api\target\classes started by Lenovo in I:\fms-api)
+[INFO ] 2019-03-27 18:41:24.321 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-27 18:41:38.421 [main] FmsApplication - Started FmsApplication in 14.597 seconds (JVM running for 15.888)
+[INFO ] 2019-03-27 19:20:55.557 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-27 19:20:56.315 [main] FmsApplication - Starting FmsApplication on Rohit with PID 14556 (I:\fms-api\target\classes started by Lenovo in I:\fms-api)
+[INFO ] 2019-03-27 19:20:56.316 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-27 19:31:03.665 [main] FmsApplicationTests - Starting FmsApplicationTests on Rohit with PID 21648 (started by Lenovo in I:\fms-api)
+[INFO ] 2019-03-27 19:31:03.669 [main] FmsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-27 19:32:57.178 [main] FmsApplicationTests - Started FmsApplicationTests in 114.006 seconds (JVM running for 115.971)
+[INFO ] 2019-03-27 19:34:39.502 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-27 19:34:40.184 [main] FmsApplication - Starting FmsApplication on Rohit with PID 14876 (I:\fms-api\target\classes started by Lenovo in I:\fms-api)
+[INFO ] 2019-03-27 19:34:40.185 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-27 19:35:00.311 [main] FmsApplication - Started FmsApplication in 20.638 seconds (JVM running for 21.947)

@@ -1,0 +1,8 @@
+[INFO ] 2019-03-26 14:03:09.639 [main] FmsApplicationTests - Starting FmsApplicationTests on Rohit with PID 26768 (started by Lenovo in I:\fms-api)
+[INFO ] 2019-03-26 14:03:09.835 [main] FmsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-26 14:04:07.378 [main] FmsApplicationTests - Started FmsApplicationTests in 62.161 seconds (JVM running for 69.977)
+[INFO ] 2019-03-26 14:16:38.371 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-26 14:16:39.216 [main] FmsApplication - Starting FmsApplication on Rohit with PID 10560 (I:\fms-api\target\classes started by Lenovo in I:\fms-api)
+[INFO ] 2019-03-26 14:16:39.216 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-26 14:17:21.780 [main] FmsApplication - Started FmsApplication in 43.209 seconds (JVM running for 45.234)
+[INFO ] 2019-03-26 14:33:25.505 [http-nio-8080-exec-5] TransactionLoggerService - New Transaction => [0, Vinod, 10200668894, SBIN0001537, 44343534, 69850085691, INR, 5555.0, NEFT, INDIA, Y, ]
