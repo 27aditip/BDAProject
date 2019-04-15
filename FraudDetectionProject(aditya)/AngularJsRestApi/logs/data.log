@@ -1,0 +1,47 @@
+Starting TransactionDriver on DESKTOP-TP18Q4P with PID 680 (E:\Angular_Rest_API\AngularJsRestApi\target\classes started by Admin in E:\Angular_Rest_API\AngularJsRestApi)
+Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+No active profile set, falling back to default profiles: default
+Started TransactionDriver in 20.048 seconds (JVM running for 22.887)
+GET : []
+GET : []
+POST : Transaction [transactionId=1, userid=lee, fromac=10223400668894, frombankifsc=SBI, toac=6985008569123, tobankifsc=sdsa, currency=INR, transactiondate=Sun Apr 14 14:45:47 IST 2019, transactionamount=600000.0, transactiontype=ATM, transactionlocation=USA, loggingdate=Sun Apr 14 14:45:47 IST 2019, isfraud=Y, fraudhandleruserid=8654, comments=trial run]
+Starting TransactionDriver on DESKTOP-TP18Q4P with PID 680 (E:\Angular_Rest_API\AngularJsRestApi\target\classes started by Admin in E:\Angular_Rest_API\AngularJsRestApi)
+Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+No active profile set, falling back to default profiles: default
+Started TransactionDriver in 1.705 seconds (JVM running for 318.012)
+GET : [Transaction [transactionId=1, userid=lee, fromac=10223400668894, frombankifsc=SBI, toac=6985008569123, tobankifsc=sdsa, currency=INR, transactiondate=2019-04-14 14:45:48.0, transactionamount=600000.0, transactiontype=ATM, transactionlocation=USA, loggingdate=2019-04-14 14:45:48.0, isfraud=Y, fraudhandleruserid=8654, comments=trial run]]
+GET : [Transaction [transactionId=1, userid=lee, fromac=10223400668894, frombankifsc=SBI, toac=6985008569123, tobankifsc=sdsa, currency=INR, transactiondate=2019-04-14 14:45:48.0, transactionamount=600000.0, transactiontype=ATM, transactionlocation=USA, loggingdate=2019-04-14 14:45:48.0, isfraud=Y, fraudhandleruserid=8654, comments=trial run]]
+Starting TransactionDriver on DESKTOP-TP18Q4P with PID 680 (E:\Angular_Rest_API\AngularJsRestApi\target\classes started by Admin in E:\Angular_Rest_API\AngularJsRestApi)
+Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+No active profile set, falling back to default profiles: default
+Started TransactionDriver in 1.637 seconds (JVM running for 615.837)
+Starting TransactionDriver on DESKTOP-TP18Q4P with PID 680 (E:\Angular_Rest_API\AngularJsRestApi\target\classes started by Admin in E:\Angular_Rest_API\AngularJsRestApi)
+Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+No active profile set, falling back to default profiles: default
+Started TransactionDriver in 1.349 seconds (JVM running for 692.679)
+Starting TransactionDriver on DESKTOP-TP18Q4P with PID 680 (E:\Angular_Rest_API\AngularJsRestApi\target\classes started by Admin in E:\Angular_Rest_API\AngularJsRestApi)
+Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+No active profile set, falling back to default profiles: default
+Started TransactionDriver in 0.954 seconds (JVM running for 702.503)
+GET DATA : [Transaction [transactionId=1, userid=lee, fromac=10223400668894, frombankifsc=SBI, toac=6985008569123, tobankifsc=sdsa, currency=INR, transactiondate=2019-04-14 14:45:48.0, transactionamount=600000.0, transactiontype=ATM, transactionlocation=USA, loggingdate=2019-04-14 14:45:48.0, isfraud=Y, fraudhandleruserid=8654, comments=trial run]]
+GET DATA : [Transaction [transactionId=1, userid=lee, fromac=10223400668894, frombankifsc=SBI, toac=6985008569123, tobankifsc=sdsa, currency=INR, transactiondate=2019-04-14 14:45:48.0, transactionamount=600000.0, transactiontype=ATM, transactionlocation=USA, loggingdate=2019-04-14 14:45:48.0, isfraud=Y, fraudhandleruserid=8654, comments=trial run]]
+Starting TransactionDriver on DESKTOP-TP18Q4P with PID 680 (E:\Angular_Rest_API\AngularJsRestApi\target\classes started by Admin in E:\Angular_Rest_API\AngularJsRestApi)
+Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+No active profile set, falling back to default profiles: default
+Started TransactionDriver in 1.317 seconds (JVM running for 900.455)
+GET DATA : [Transaction [transactionId=1, userid=lee, fromac=10223400668894, frombankifsc=SBI, toac=6985008569123, tobankifsc=sdsa, currency=INR, transactiondate=2019-04-14 14:45:48.0, transactionamount=600000.0, transactiontype=ATM, transactionlocation=USA, loggingdate=2019-04-14 14:45:48.0, isfraud=Y, fraudhandleruserid=8654, comments=trial run]]
+POST DATA : Transaction [transactionId=2, userid=12, fromac=10223400668894, frombankifsc=ICICI, toac=6985008569123, tobankifsc=sdsa, currency=INR, transactiondate=Sun Apr 14 14:56:59 IST 2019, transactionamount=600000.0, transactiontype=ATM, transactionlocation=INDIA, loggingdate=Sun Apr 14 14:56:59 IST 2019, isfraud=Y, fraudhandleruserid=8654, comments=trial run]
+Starting TransactionDriver on DESKTOP-TP18Q4P with PID 680 (E:\Angular_Rest_API\AngularJsRestApi\target\classes started by Admin in E:\Angular_Rest_API\AngularJsRestApi)
+Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+No active profile set, falling back to default profiles: default
+Started TransactionDriver in 0.981 seconds (JVM running for 996.187)
+POST DATA : Transaction [transactionId=3, userid=13, fromac=10223400668894, frombankifsc=ICICI, toac=6985008569123, tobankifsc=sdsa, currency=INR, transactiondate=Sun Apr 14 14:58:19 IST 2019, transactionamount=600000.0, transactiontype=ATM, transactionlocation=INDIA, loggingdate=Sun Apr 14 14:58:19 IST 2019, isfraud=Y, fraudhandleruserid=8654, comments=trial run]
+GET DATA : [Transaction [transactionId=1, userid=lee, fromac=10223400668894, frombankifsc=SBI, toac=6985008569123, tobankifsc=sdsa, currency=INR, transactiondate=2019-04-14 14:45:48.0, transactionamount=600000.0, transactiontype=ATM, transactionlocation=USA, loggingdate=2019-04-14 14:45:48.0, isfraud=Y, fraudhandleruserid=8654, comments=trial run], Transaction [transactionId=2, userid=12, fromac=10223400668894, frombankifsc=ICICI, toac=6985008569123, tobankifsc=sdsa, currency=INR, transactiondate=2019-04-14 14:57:00.0, transactionamount=600000.0, transactiontype=ATM, transactionlocation=INDIA, loggingdate=2019-04-14 14:57:00.0, isfraud=Y, fraudhandleruserid=8654, comments=trial run], Transaction [transactionId=3, userid=13, fromac=10223400668894, frombankifsc=ICICI, toac=6985008569123, tobankifsc=sdsa, currency=INR, transactiondate=2019-04-14 14:58:20.0, transactionamount=600000.0, transactiontype=ATM, transactionlocation=INDIA, loggingdate=2019-04-14 14:58:20.0, isfraud=Y, fraudhandleruserid=8654, comments=trial run]]
+POST DATA : Transaction [transactionId=4, userid=16, fromac=10223400668894, frombankifsc=SBI, toac=6985008569123, tobankifsc=sdsa, currency=INR, transactiondate=Sun Apr 14 16:30:41 IST 2019, transactionamount=600000.0, transactiontype=ATM, transactionlocation=INDIA, loggingdate=Sun Apr 14 16:30:41 IST 2019, isfraud=Y, fraudhandleruserid=8654, comments=trial run]
+Starting TransactionDriver on DESKTOP-TP18Q4P with PID 680 (E:\Angular_Rest_API\AngularJsRestApi\target\classes started by Admin in E:\Angular_Rest_API\AngularJsRestApi)
+Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+No active profile set, falling back to default profiles: default
+Started TransactionDriver in 17.507 seconds (JVM running for 8755.065)
+Starting TransactionDriver on DESKTOP-TP18Q4P with PID 680 (E:\Angular_Rest_API\AngularJsRestApi\target\classes started by Admin in E:\Angular_Rest_API\AngularJsRestApi)
+Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+No active profile set, falling back to default profiles: default
