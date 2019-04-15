@@ -1,0 +1,14 @@
+[INFO ] 2019-03-31 16:48:58.055 [restartedMain] TransactionEx - Starting TransactionEx on LAPTOP-7TLMMAFU with PID 7568 (started by hp in F:\trimester 2\AngularjsRestApi)
+[DEBUG] 2019-03-31 16:48:58.056 [restartedMain] TransactionEx - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 2019-03-31 16:48:58.056 [restartedMain] TransactionEx - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-31 16:48:59.235 [restartedMain] TransactionEx - Started TransactionEx in 1.235 seconds (JVM running for 234.731)
+[INFO ] 2019-03-31 16:49:19.690 [http-nio-8080-exec-3] TransactionController - [angularjsrestapi.model.Transaction@14b98dcd]
+[INFO ] 2019-03-31 16:49:20.327 [http-nio-8080-exec-1] TransactionController - [angularjsrestapi.model.Transaction@392f9bca]
+[INFO ] 2019-03-31 16:50:00.176 [restartedMain] TransactionEx - Starting Logging
+[INFO ] 2019-03-31 16:50:00.252 [restartedMain] TransactionEx - Starting TransactionEx on LAPTOP-7TLMMAFU with PID 7568 (started by hp in F:\trimester 2\AngularjsRestApi)
+[DEBUG] 2019-03-31 16:50:00.252 [restartedMain] TransactionEx - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+[INFO ] 2019-03-31 16:50:00.252 [restartedMain] TransactionEx - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-31 16:50:01.222 [restartedMain] TransactionEx - Started TransactionEx in 1.04 seconds (JVM running for 296.718)
+[INFO ] 2019-03-31 16:50:04.761 [http-nio-8080-exec-1] TransactionController - [Transaction [transactionId=1, userId=Aditi, fromAC=10200668894, fromBankIFSC=SBI, toAC=69850085691, toBankIFSC=sdsa, currency=INR, transactionDate=2019-03-31 16:47:03.089, transactionAmount=5000.0, transactionType=df, transactionLocation=INDIA]]
+[INFO ] 2019-03-31 16:50:05.320 [http-nio-8080-exec-3] TransactionController - [Transaction [transactionId=1, userId=Aditi, fromAC=10200668894, fromBankIFSC=SBI, toAC=69850085691, toBankIFSC=sdsa, currency=INR, transactionDate=2019-03-31 16:47:03.089, transactionAmount=5000.0, transactionType=df, transactionLocation=INDIA]]
+[INFO ] 2019-03-31 16:50:05.789 [http-nio-8080-exec-5] TransactionController - [Transaction [transactionId=1, userId=Aditi, fromAC=10200668894, fromBankIFSC=SBI, toAC=69850085691, toBankIFSC=sdsa, currency=INR, transactionDate=2019-03-31 16:47:03.089, transactionAmount=5000.0, transactionType=df, transactionLocation=INDIA]]
