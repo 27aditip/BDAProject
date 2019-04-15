@@ -1,0 +1,78 @@
+<form role="form" #transData = "ngForm"  (ngSubmit)="addNewTransaction(transData.value); transData.reset()">
+
+  <!-- From Account -->
+  <div class="form-group d-flex justify-content-center">
+    <label for="userID"><B>UserID:</B></label>
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="userID" id="userID" placeholder="UserID" ngModel>
+  </div>
+  <!-- From Account -->
+  <div class="form-group d-flex justify-content-center">
+      <label for="fromAC"><B>FromAC:</B></label>
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="FromAC" id="fromAC" placeholder="From Account No." ngModel>
+  </div>
+  <!-- From Account -->
+  <div class="form-group d-flex justify-content-center">
+      <label for="FromBankIFSC"><B>FromBankIFSC:</B></label>
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="fromBankIFSC" id="fromBankIFSC" placeholder="FromBankIFSC." ngModel>
+  </div>
+  <!-- From Account -->
+  <div class="form-group d-flex justify-content-center">
+      <label for="ToAC"><B>ToAC:</B></label>
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="toAC" id="toAC" placeholder="ToAC." ngModel>
+  </div>
+  <!-- From Account -->
+  <div class="form-group d-flex justify-content-center">
+      <label for="ToBankIFSC"><B>ToBankIFSC:</B></label>
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="toBankIFSC" id="toBankIFSC" placeholder="ToBankIFSC." ngModel>
+  </div>
+  <!-- From Account -->
+  <div class="form-group d-flex justify-content-center">
+      <label for="Currency"><B>Currency:</B></label>
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="currency" id="currency" placeholder="Currency" ngModel>
+  </div>
+  <!-- From Account -->
+  <div class="form-group d-flex justify-content-center">
+      <label for="TransactionAmount"><B>TransactionAmount:</B></label>
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="transactionAmount" id="TransactionAmount" placeholder="TransactionAmount." ngModel>
+  </div>
+  <!-- From Account -->
+  <div class="form-group d-flex justify-content-center">
+      <label for="Select Transaction Types"><B>Select Transaction Types:</B></label>
+  <select id="selectTransType"name="transactionType" class="col-sm-3 form-control " placeholder="Select Transaction Types" ngModel>
+    <option value="" selected disabled>|---Select Transaction Type---|</option>
+    <option>Atm</option>
+    <option>Branch</option>
+    <option>Online Upi</option>
+    <option>Mobile</option>
+    <option>Rtgs</option>
+    <option>Neft</option>
+    <option>Swaping Machine</option>
+  </select>
+  </div>
+  <!-- From Account -->
+  <div class="form-group d-flex justify-content-center">
+      <label for="TransactionLocation"><B>TransactionLocation:</B></label>
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="transactionLocation" id="transactionLocation" placeholder="TransactionLocation." ngModel>
+  </div>
+  <!-- From Account -->
+  <div class="form-group d-flex justify-content-center">
+      <label for="IsFraud"><B>IsFraud:</B></label>
+      <input type="text" autocomplete="off" class="col-sm-3 form-control" name="IsFraud" id="IsFraud" placeholder="IsFraud." ngModel>
+    </div><div class="form-group d-flex justify-content-center">
+  
+    </div>
+  
+  <!-- From Account -->
+  <div class="form-group d-flex justify-content-center">
+      <label for="FraudHandlerUserID"><B>FraudHandlerUserID:</B></label>
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="fraudHandlerUserID" id="FraudHandlerUserID" placeholder="FraudHandlerUserID." ngModel>
+  </div><div class="form-group d-flex justify-content-center">
+    <input type="text" autocomplete="off" class="col-sm-3 form-control" name="comments" id="comments" placeholder="Comments." ngModel>
+  </div>
+
+  <div class="form-group d-flex justify-content-center">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+    
+  
+</form>
