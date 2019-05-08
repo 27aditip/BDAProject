@@ -1,0 +1,47 @@
+[INFO ] 2019-03-23 17:22:13.307 [main] FmsApplication - Starting the application...
+[INFO ] 2019-03-23 17:22:13.631 [main] FmsApplication - Starting FmsApplication on C05L0114 with PID 7028 (started by Administrator in C:\Program Files\MIT\MIT-Mini-Project\fms-api)
+[INFO ] 2019-03-23 17:22:13.632 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-03-23 17:22:25.328 [main] FmsApplication - Started FmsApplication in 11.922 seconds (JVM running for 12.508)
+[INFO ] 2019-03-23 17:22:58.643 [http-nio-8080-exec-2] TransactionLoggerService - New Transaction => [4534534, 11111@ybl, INR, Fri Mar 23 16:05:28 IST 2018, 3220000.0, UPI, India, , my comments]
+[INFO ] 2019-05-07 15:56:51.781 [main] FmsApplicationTests - Starting FmsApplicationTests on DESKTOP-47LQ4QQ with PID 5180 (started by VAIBHAV in E:\PROJECT\java-api\mit\fms-api)
+[INFO ] 2019-05-07 15:56:51.781 [main] FmsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-07 15:57:09.009 [main] FmsApplicationTests - Started FmsApplicationTests in 17.718 seconds (JVM running for 20.419)
+[INFO ] 2019-05-07 15:59:12.415 [main] FmsApplication - Starting the application...
+[INFO ] 2019-05-07 15:59:13.230 [main] FmsApplication - Starting FmsApplication on DESKTOP-47LQ4QQ with PID 8388 (E:\PROJECT\java-api\mit\fms-api\target\classes started by VAIBHAV in E:\PROJECT\java-api\mit\fms-api)
+[INFO ] 2019-05-07 15:59:13.230 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-07 15:59:29.564 [main] FmsApplication - Started FmsApplication in 16.932 seconds (JVM running for 18.581)
+[INFO ] 2019-05-07 16:15:17.914 [http-nio-8080-exec-8] TransactionLoggerService - New Transaction => [vaibahv k, 10200668, 12345, 177, 453476, INR, 1000.0, cash, USA, good]
+[INFO ] 2019-05-07 16:16:46.656 [http-nio-8080-exec-2] TransactionLoggerService - New Transaction => [vaibahv kssdsd, 10200668, 12345, 177, 453476, INR, 1000.0, cash, USA, good]
+[INFO ] 2019-05-07 16:17:56.926 [http-nio-8080-exec-6] TransactionLoggerService - New Transaction => [vaibahv kssdswdwdd, 10200668, 12345, 177, 453476, INR, 1000.0, cash, USA, good]
+[INFO ] 2019-05-07 16:50:55.673 [main] FmsApplicationTests - Starting FmsApplicationTests on DESKTOP-47LQ4QQ with PID 4516 (started by VAIBHAV in E:\MIT\FY\Trimester3\Project\Git_project\BDAProject\fms-api)
+[INFO ] 2019-05-07 16:50:55.674 [main] FmsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-07 16:51:14.390 [main] FmsApplicationTests - Started FmsApplicationTests in 19.423 seconds (JVM running for 22.512)
+[INFO ] 2019-05-07 16:53:18.879 [main] FmsApplication - Starting the application...
+[INFO ] 2019-05-07 16:53:19.687 [main] FmsApplication - Starting FmsApplication on DESKTOP-47LQ4QQ with PID 9840 (E:\MIT\FY\Trimester3\Project\Git_project\BDAProject\fms-api\target\classes started by VAIBHAV in E:\MIT\FY\Trimester3\Project\Git_project\BDAProject\fms-api)
+[INFO ] 2019-05-07 16:53:19.689 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-07 16:53:35.719 [main] FmsApplication - Started FmsApplication in 16.647 seconds (JVM running for 18.157)
+[INFO ] 2019-05-07 16:56:31.809 [http-nio-8080-exec-1] TransactionLoggerService - New Transaction => [vaibahv kachare, 104, 5633, INR, Sat Mar 16 21:10:01 IST 2019, 4000.5, ATM, UK, Y, done]
+[INFO ] 2019-05-07 17:15:24.327 [main] FmsApplicationTests - Starting FmsApplicationTests on DESKTOP-47LQ4QQ with PID 3512 (started by VAIBHAV in E:\MIT\FY\Trimester3\Project\Git_project\BDAProject\fms-api)
+[INFO ] 2019-05-07 17:15:24.329 [main] FmsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-07 17:15:48.732 [main] FmsApplicationTests - Started FmsApplicationTests in 24.934 seconds (JVM running for 27.336)
+[INFO ] 2019-05-07 17:16:42.893 [main] FmsApplicationTests - Starting FmsApplicationTests on DESKTOP-47LQ4QQ with PID 8360 (started by VAIBHAV in E:\MIT\FY\Trimester3\Project\Git_project\BDAProject\fms-api)
+[INFO ] 2019-05-07 17:16:42.894 [main] FmsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-07 17:16:59.300 [main] FmsApplicationTests - Started FmsApplicationTests in 17.392 seconds (JVM running for 19.758)
+[INFO ] 2019-05-07 17:17:20.146 [main] FmsApplication - Starting the application...
+[INFO ] 2019-05-07 17:17:20.969 [main] FmsApplication - Starting FmsApplication on DESKTOP-47LQ4QQ with PID 9220 (E:\MIT\FY\Trimester3\Project\Git_project\BDAProject\fms-api\target\classes started by VAIBHAV in E:\MIT\FY\Trimester3\Project\Git_project\BDAProject\fms-api)
+[INFO ] 2019-05-07 17:17:20.970 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-07 17:17:36.171 [main] FmsApplication - Started FmsApplication in 15.816 seconds (JVM running for 17.348)
+[INFO ] 2019-05-07 17:30:03.022 [main] FmsApplication - Starting the application...
+[INFO ] 2019-05-07 17:30:03.901 [main] FmsApplication - Starting FmsApplication on DESKTOP-47LQ4QQ with PID 2604 (E:\MIT\FY\Trimester3\Project\Git_project\BDAProject\fms-api\target\classes started by VAIBHAV in E:\MIT\FY\Trimester3\Project\Git_project\BDAProject\fms-api)
+[INFO ] 2019-05-07 17:30:03.903 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-07 17:30:19.150 [main] FmsApplication - Started FmsApplication in 15.906 seconds (JVM running for 17.658)
+[INFO ] 2019-05-07 17:30:24.888 [http-nio-8080-exec-8] TransactionLoggerService - New Transaction => [1, 343435, 43434, 878689, 2211, 878689, rupee, 10000.0, ATM, Ind, ]
+[INFO ] 2019-05-07 17:31:33.517 [http-nio-8080-exec-3] TransactionLoggerService - New Transaction => [2, 343435, 35464, 878689, 2211, 878689, rupee, 10000.0, ATM, Ind, xagah]
+[INFO ] 2019-05-07 17:32:46.095 [main] FmsApplicationTests - Starting FmsApplicationTests on DESKTOP-47LQ4QQ with PID 1908 (started by VAIBHAV in E:\MIT\FY\Trimester3\Project\Git_project\BDAProject\fms-api)
+[INFO ] 2019-05-07 17:32:46.101 [main] FmsApplicationTests - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-07 17:33:04.465 [main] FmsApplicationTests - Started FmsApplicationTests in 18.978 seconds (JVM running for 21.343)
+[INFO ] 2019-05-07 17:33:17.528 [main] FmsApplication - Starting the application...
+[INFO ] 2019-05-07 17:33:18.337 [main] FmsApplication - Starting FmsApplication on DESKTOP-47LQ4QQ with PID 9612 (E:\MIT\FY\Trimester3\Project\Git_project\BDAProject\fms-api\target\classes started by VAIBHAV in E:\MIT\FY\Trimester3\Project\Git_project\BDAProject\fms-api)
+[INFO ] 2019-05-07 17:33:18.339 [main] FmsApplication - No active profile set, falling back to default profiles: default
+[INFO ] 2019-05-07 17:34:17.251 [http-nio-8080-exec-9] TransactionLoggerService - New Transaction => [2, 343435, 35464, 878689, 2211, 878689, rupee, 10000.0, ATM, Ind, ]
+[INFO ] 2019-05-07 17:35:01.458 [http-nio-8080-exec-7] TransactionLoggerService - New Transaction => [2, 343435, 35464, 878689, 2211, 878689, rupee, 10000.0, ATM, Ind, null, bad]
